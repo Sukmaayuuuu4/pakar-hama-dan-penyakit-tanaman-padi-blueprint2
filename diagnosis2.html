@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diagnosa</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Sistem Pakar Penyakit Padi</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="diagnosis2.html">Diagnosa</a>
+        <a href="kontak2.html">Kontak</a>
+    </nav>
+</header>
+
+<div class="container">
+
+<h2>Pilih Gejala</h2>
+
+<div class="gejala">
+
+<label><input type="checkbox" value="G01"> Pertumbuhan terhambat</label>
+<label><input type="checkbox" value="G02"> Tepi daun tidak rata</label>
+<label><input type="checkbox" value="G03"> Bercak daun lonjong</label>
+<label><input type="checkbox" value="G04"> Bintik coklat/ungu</label>
+<label><input type="checkbox" value="G05"> Daun abu-abu kering</label>
+<label><input type="checkbox" value="G06"> Gabah hampa</label>
+<label><input type="checkbox" value="G07"> Batang patah</label>
+<label><input type="checkbox" value="G08"> Bercak kecoklatan</label>
+<label><input type="checkbox" value="G09"> Bercak belah ketupat</label>
+<label><input type="checkbox" value="G10"> Tanaman kering</label>
+<label><input type="checkbox" value="G11"> Daun kuning oranye</label>
+<label><input type="checkbox" value="G12"> Tanaman kerdil</label>
+
+</div>
+
+<button onclick="diagnosa()">Diagnosa</button>
+
+<div id="hasil"></div>
+
+</div>
+
+<script src="script1.js"></script>
+
+</body>
+</html>
