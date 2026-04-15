@@ -1,16 +1,10 @@
-/* RESET */
-* {
-    box-sizing: border-box;
-}
-
-/* BODY */
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
     background: #f4f6f8;
 }
 
-/* HEADER + NAVBAR */
+/* HEADER */
 header {
     background: #2e7d32;
     color: white;
@@ -21,6 +15,7 @@ header {
     z-index: 1000;
 }
 
+/* NAVBAR */
 nav {
     margin-top: 10px;
 }
@@ -29,32 +24,29 @@ nav a {
     color: white;
     margin: 0 10px;
     text-decoration: none;
-    font-weight: 500;
-    padding: 6px 10px;
-    border-radius: 6px;
+    font-weight: bold;
     transition: 0.3s;
 }
 
-/* NAV HOVER */
 nav a:hover {
-    background: rgba(255,255,255,0.2);
+    color: #c8e6c9;
 }
 
 /* CONTAINER */
 .container {
     max-width: 600px;
-    margin: 20px auto;
+    margin: 25px auto;
     background: white;
     padding: 25px;
     border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-/* TEXT */
 .center {
     text-align: center;
 }
 
+/* TEXT */
 .container p {
     line-height: 1.6;
     color: #555;
@@ -78,7 +70,6 @@ button {
     margin-top: 15px;
 }
 
-/* BUTTON HOVER */
 .btn:hover, button:hover {
     background: #1b5e20;
 }
@@ -91,7 +82,7 @@ button {
 }
 
 .gejala label {
-    padding: 10px;
+    padding: 12px;
     background: #f9f9f9;
     border-radius: 8px;
     cursor: pointer;
@@ -108,7 +99,6 @@ button {
     padding: 15px;
     background: #e8f5e9;
     border-radius: 10px;
-    display: none;
 }
 
 /* KONTAK */
